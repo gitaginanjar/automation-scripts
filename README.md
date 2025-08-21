@@ -50,9 +50,10 @@ Each directory contains its own `README.md` (when applicable) that explains spec
 
 ## License
 
-Some modules include their own license files. Refer to each subdirectory (e.g., `git/`, `go-yaml-extractor/`) for details.
+[MIT][link-license]
 
----
+## Author Information
 
-## Author
-- [G. Ginanjar](https://github.com/gitaginanjar)
+This role was created in 2025 by [G. Ginanjar](https://github.com/gitaginanjar)
+
+[link-license]: https://raw.githubusercontent.com/gitaginanjar/automation-scripts/master/LICENSE
