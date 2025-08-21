@@ -5,7 +5,6 @@ This repository contains a collection of automation scripts and tools for DevOps
 ## Repository Structure
 
 ```
-database/                   # Scripts for Oracle database user management
 gcp/                        # GCP-related automation (VM migration, autostart)
 generic/                    # General-purpose helper scripts
 git/                        # Git-related automation (backup, clone, docker builds)
@@ -30,19 +29,12 @@ vault/                      # Vault import/export automation
 Each directory contains its own `README.md` (when applicable) that explains specific usage. Common usage patterns:
 
 ```bash
-# Run a bash script
-database/create-oracle-users_v1.sh
-
-# Run a Python script
-python3 config-secret-check/duplicate_yaml_check.py
-
 # Run go-yaml-extractor
 ./go-yaml-extractor/go-yaml-extractor.sh
 ```
 
 ### Examples
 
-* **Database**: Automate Oracle user provisioning.
 * **GCP**: Automate VM migration and startup scripts.
 * **Generic**: File permissions, replacements, sleep progress bar.
 * **Git**: Backup repositories, clone Bitbucket repos, automate docker build & push.
